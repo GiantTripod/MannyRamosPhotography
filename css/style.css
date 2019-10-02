@@ -1,15 +1,11 @@
 html {
-    background: blue;
-}
-
-
-.site-container {
-    background: url(/pictures/horsetooth-res..jpg);
-    width: 100%;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
 }
+
