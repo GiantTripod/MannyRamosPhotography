@@ -1,3 +1,8 @@
+html {
+    background: blue;
+}
+
+
 .site-container {
     background: url(/images/IMG_0137.jpg);
     width: 100%;
