@@ -107,6 +107,8 @@ img {
     .header-container {
         flex-direction: row;
         height: auto;
+        margin-left: .8rem;
+        margin-right: .5rem;
     }
     .header-image {
         display: none;
@@ -121,7 +123,7 @@ img {
         font-size: 75%;
     }
     .photo-container img {
-        margin-left: .5rem;
+        margin-left: .6rem;
     }
     .info-container {
         display: flex;
