@@ -24,7 +24,7 @@ img {
     display: flex;
     flex-direction: column;
 }
-.top-photo-container {
+.top-photo-container, .bottom-photo-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 10px;
@@ -48,6 +48,7 @@ img {
     flex-direction: row;
     width: 100%;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .header-container {
     display: flex;
@@ -90,10 +91,14 @@ img {
 .slideshow {
     width: 50%;
     height: auto;
+    margin: auto;
 }
 .slideshow img {
     height: auto;
     width: 98%;
+    -webkit-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 13px -2px rgba(0,0,0,0.59);
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.59);
 }
 
 
@@ -128,13 +133,19 @@ img {
     .info-container {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-left: .7rem;
     }
     .about-me {
-        width: 80%;
+        width: 96%;
         align-self: center;
+        margin-right: 1rem;
+        text-align: center;
     }
     .slideshow {
-        width: 80%;
+        width: 96%;
         align-self: center;
+        margin-right: 1.1rem;
+        margin-top: 1rem;
     }
 }
