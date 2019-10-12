@@ -120,6 +120,9 @@ img {
         align-self: center;
         font-size: 75%;
     }
+    .photo-container img {
+        margin-left: .5rem;
+    }
     .info-container {
         display: flex;
         flex-direction: column;
