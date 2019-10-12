@@ -31,10 +31,18 @@ img {
     width: 100%;
     align-items: center;
 }
+.photo-container {
+    height: 15rem;
+    width: 100%;
+}
+.photo-container img {
+    height: 100%;
+}
 .info-container {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 2rem;
 }
 .header-container {
     display: flex;
