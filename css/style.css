@@ -213,7 +213,7 @@ img {
         flex-direction: column;
         width: 100%;
         margin-left: .7rem;
-        margin-bottom: 15rem;
+        margin-bottom: 10rem;
     }
     .about-me {
         width: 96%;
@@ -227,6 +227,7 @@ img {
         margin-right: 1.1rem;
         margin-top: 1rem;
         margin-left: 1.5rem;
+        margin-bottom: 5rem;
     }
     #slides {
         width: 95%;
