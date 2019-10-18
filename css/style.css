@@ -32,6 +32,9 @@ img {
     width: 100%;
     align-items: center;
 }
+.bottom-photo-container {
+    margin-top: 1.5rem;
+}
 .photo-container {
     height: 20rem;
     width: 100%;
@@ -227,7 +230,6 @@ img {
         margin-right: 1.1rem;
         margin-top: 1rem;
         margin-left: 1.5rem;
-        margin-bottom: 5rem;
     }
     #slides {
         width: 95%;
