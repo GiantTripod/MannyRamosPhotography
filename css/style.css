@@ -231,4 +231,7 @@ img {
     #slides {
         width: 95%;
     }
+    .bottom-photo-container {
+        margin-top: 2rem;
+    }
 }
