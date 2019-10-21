@@ -1,11 +1,13 @@
 html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
+    
 }
 body {
     font-family: 'Dancing Script', cursive;
     font-family: 'Ledger', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 img {
     width: 95%;
