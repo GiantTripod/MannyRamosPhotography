@@ -3,7 +3,10 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Ledger', serif;
+}
 img {
     width: 95%;
     height: auto;
@@ -31,6 +34,10 @@ img {
     grid-row-gap: 15px;
     width: 100%;
     align-items: center;
+    margin-top: 1rem;
+}
+.bottom-photo-container {
+    margin-bottom: 1rem;
 }
 .photo-container {
     height: 20rem;
@@ -50,12 +57,19 @@ img {
     height: 50vh;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-family: 'ledger';
 }
 .header-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    
+    height: 100%;
+    font-family: 'Dancing Script';
+    text-align: center;
+    background-color: #3d3c38;
+    color: #f5f4f2;
+    grid-row-start: 1;
+    grid-row-end:   2;
+    font-weight: lighter;
 }
 .header-title {
     font-size: 1.5rem;
@@ -66,8 +80,9 @@ img {
 }
 .header-nav {
     justify-self: center;
-    margin-top: auto;
     align-self: center;
+    font-size: 2.5em;
+    margin-top: 7rem;
 }
 .header-nav ul {
     list-style: none;
@@ -76,7 +91,7 @@ img {
 }
 .header-nav a {
     text-decoration: none;
-    color: black;
+    color: #f5f4f2;
 }
 .navbar-toggle {
     display: none;
@@ -87,6 +102,18 @@ img {
     margin-top: auto;
     align-self: center;
 }
+.media-icons i {
+    margin-left: .5rem;
+}
+.media-icons p {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+.header-name1, .header-name2 {
+    margin: 0 .5rem;
+    font-weight: normal;
+}
 .header-image {
     width: 15rem;
     height: 12rem;
@@ -94,6 +121,7 @@ img {
     justify-self: flex-start;
     align-self: center;
     border-radius: 50%;
+    margin-top: 1rem;
 }
 
 
@@ -103,6 +131,7 @@ img {
     text-align: center;
     align-self: center;
     margin-right: .5rem;
+    font-family: 'ledger';
 }
 
 .slideshow {
@@ -182,13 +211,19 @@ img {
     .header-container {
         display: flex;
         flex-direction: row;
-        height: auto;
         margin-left: .8rem;
         margin-right: .5rem;
         justify-content: center;
         align-items: center;
+        margin-top: 1rem;
+        background: white;
+        color: black;
+        height: 1.5rem;
     }
     .header-image {
+        display: none;
+    }
+    .header-name1, .header-name2 {
         display: none;
     }
     .header-container p {
@@ -215,6 +250,7 @@ img {
         font-size: 75%;
         align-self: center;
         margin-bottom: 0;
+        margin-top: 0;
     }
     .photo-container img {
         margin-left: .6rem;
@@ -224,7 +260,7 @@ img {
         flex-direction: column;
         width: 100%;
         margin-left: .7rem;
-        margin-bottom: 15rem;
+        margin-bottom: 16rem;
     }
     .about-me {
         width: 96%;
@@ -241,5 +277,8 @@ img {
     }
     #slides {
         width: 95%;
+    }
+    .bottom-photo-container {
+        margin-top: 2rem;
     }
 }
