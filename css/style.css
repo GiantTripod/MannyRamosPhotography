@@ -134,7 +134,7 @@ img {
 
 .slideshow {
     width: 50%;
-    height: auto;
+    height: 100%;
     margin: auto;
 }
 #slides {
@@ -259,7 +259,7 @@ img {
         flex-direction: column;
         width: 100%;
         margin-left: .7rem;
-        margin-bottom: 16rem;
+        height: 100%;
     }
     .about-me {
         width: 96%;
@@ -278,6 +278,6 @@ img {
         width: 95%;
     }
     .bottom-photo-container {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 }
