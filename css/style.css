@@ -36,6 +36,7 @@ img {
 }
 .bottom-photo-container {
     margin-bottom: 1rem;
+    margin-top: 0;
 }
 .photo-container {
     height: 20rem;
@@ -171,7 +172,7 @@ img {
     background-position: center;
 }
 .slide:nth-of-type(2) {
-    background-image: url(https://gianttripod.github.io/MannyRamosPhotography/pictures/SAM-0258.JPG);
+    background-image: url(https://gianttripod.github.io/MannyRamosPhotography/pictures/SAM_0258.JPG);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
