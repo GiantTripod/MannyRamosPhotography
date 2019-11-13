@@ -210,9 +210,6 @@ img {
         "header-container"
         "main-container";
     }
-    .main-container {
-        margin-top: auto;
-    }
     .header-container {
         display: flex;
         flex-direction: row;
@@ -243,20 +240,18 @@ img {
     }
     .header-nav {
         margin-top: 1rem;
+        margin-bottom: auto;
     }
     .main-nav {
         display: flex;
         flex-direction: column;
         margin-right: auto;
-        display: none;
-        position: absolute;
-        width: 100%;
-        background: #000;
-        left: 0;
-        right: 0; 
+        margin-top: 1rem;
+        display: none;        
+
     }
     .main-nav:active {
-        display: inline-block;
+        display: block;
         
     }
     .media-icons {
