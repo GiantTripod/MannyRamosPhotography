@@ -9,9 +9,9 @@ function nextSlide() {
 }
 
 
-let MainNav = document.getElementById("js-menu");
+let mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navbar-toggle");
 
 navBarToggle.addEventListener("click", function() {
-  MainNav.classList.toggle("active");
+  mainNav.classList.toggle("main-nav");
 });
