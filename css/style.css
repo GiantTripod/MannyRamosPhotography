@@ -95,6 +95,9 @@ img {
 .navbar-toggle {
     display: none;
 }
+.active {
+    display: block;
+}
 .media-icons {
     justify-self: flex-end;
     margin-bottom: 2rem;
@@ -240,6 +243,9 @@ img {
     }
     .Navbar__ToggleShow {
         display: block;
+    }
+    .header-nav {
+        margin-top: 1rem;
     }
     .main-nav {
         display: flex;
