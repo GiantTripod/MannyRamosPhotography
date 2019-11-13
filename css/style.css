@@ -115,7 +115,7 @@ img {
 }
 .header-image {
     width: 15rem;
-    height: 12rem;
+    height: 15rem;
     border: none;
     justify-self: flex-start;
     align-self: center;
@@ -222,6 +222,12 @@ img {
         color: black;
         height: auto;
     }
+    .header-container :nth-child(3) {
+        order: 3;
+    }
+    .header-container :nth-child(4) {
+        order: 4;
+    }
     .header-image {
         display: none;
     }
@@ -239,10 +245,6 @@ img {
         font-size: 150%;
         color: black;
     }
-    .header-nav {
-        margin-top: 1rem;
-        margin-bottom: auto;
-    }
     .main-nav {
         display: flex;
         flex-direction: column;
@@ -251,6 +253,7 @@ img {
     }
     .main-nav:active {
         display: block;
+        margin-top: 5rem;
         
     }
     .media-icons {
