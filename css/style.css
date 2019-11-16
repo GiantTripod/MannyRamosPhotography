@@ -200,6 +200,27 @@ img {
     opacity: 1;
     z-index: 2;
 }
+#button {
+    display: none;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    transition: background-color .3s;
+    z-index: 1000;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
 
 
 @media only screen and (max-width: 900px) {
@@ -221,6 +242,15 @@ img {
         background: white;
         color: black;
         height: auto;
+    }
+    #button {
+        display: inline-block;
+    }
+    #button i {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: .5rem;
+        color: white;
     }
     .header-image {
         display: none;
