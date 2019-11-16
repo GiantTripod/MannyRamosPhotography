@@ -217,16 +217,10 @@ img {
         margin-right: .5rem;
         justify-content: center;
         align-items: center;
-        margin-top: 1rem;
+        margin-top: -1.75rem;
         background: white;
         color: black;
         height: auto;
-    }
-    .header-container :nth-child(3) {
-        order: 3;
-    }
-    .header-container :nth-child(4) {
-        order: 4;
     }
     .header-image {
         display: none;
@@ -248,13 +242,21 @@ img {
     .main-nav {
         display: flex;
         flex-direction: column;
-        margin-top: 1rem;
         display: none;
+        margin-top: 10rem;
+    }
+    .header-nav a {
+        color: black;
+        text-align: center;
+    }
+    .header-nav ul {
+        margin-top: -5rem;
+    }
+    .header-nav:active {
+        margin-top: -5rem;
     }
     .main-nav:active {
-        display: block;
-        margin-top: 5rem;
-        
+        display: block;  
     }
     .media-icons {
         margin-left: auto;
