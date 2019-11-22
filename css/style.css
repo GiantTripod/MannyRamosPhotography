@@ -288,9 +288,6 @@ img {
         margin-top: -5rem;
         margin-left: 2rem;
     }
-    .header-nav:active {
-        margin-top: -5rem;
-    }
     .main-nav:active {
         display: inline-block;  
     }
