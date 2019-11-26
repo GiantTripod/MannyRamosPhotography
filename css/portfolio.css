@@ -26,6 +26,14 @@ img {
     display: flex;
     flex-direction: column;
 }
+.main-container h1 {
+    text-align: center;
+}
+.main-container hr {
+    text-align: center;
+    width: 30%;
+    margin-top: -.5rem;
+}
 .top-photo-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -33,7 +41,8 @@ img {
     grid-row-gap: 15px;
     width: 100%;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .photo-container {
     height: 20rem;
