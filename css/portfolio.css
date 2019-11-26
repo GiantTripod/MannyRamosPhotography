@@ -163,6 +163,9 @@ img {
         "header-container"
         "main-container";
     }
+    .main-container h1 {
+        font-size: 40px;
+    }
     .main-container hr {
         width: 50%;
     }
