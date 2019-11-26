@@ -28,10 +28,12 @@ img {
 }
 .main-container h1 {
     text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 32px;
 }
 .main-container hr {
     text-align: center;
-    width: 30%;
+    width: 25%;
     margin-top: -.5rem;
 }
 .top-photo-container {
@@ -160,6 +162,9 @@ img {
         grid-template-areas: 
         "header-container"
         "main-container";
+    }
+    .main-container hr {
+        width: 50%;
     }
     .header-container {
         display: flex;
